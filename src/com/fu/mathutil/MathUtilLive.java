@@ -21,6 +21,11 @@ public class MathUtilLive {
         System.out.println("5! = 120; actual =  "+ result);
         //kĩ thuật kiểm thử
         //expected = actual -> đúng
+        
+        //thêm code sau lần đầu làm chuyện ấy
+        // 7/7/2021 5:35pm
+        System.out.println("1! = 1; actual =  "+ MathUtil.getFactorial(1));
+        System.out.println("3! = 6; actual =  "+ MathUtil.getFactorial(3));
     }
     
 }
